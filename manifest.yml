@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: HSAPP2
+  host: hsapp2
+  disk_quota: 1024M
+  services:
+  - HSAPP2-AdvancedMobileAccess
+  - HSAPP2-imfpush
+  - HSAPP2-cloudantNoSQLDB
+  - Mobile App Builder-vs
